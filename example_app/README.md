@@ -11,5 +11,5 @@ example_app/
 ├── app.py               # The main entry point of the Flask application. It contains the application setup and route definitions.
 ├── templates/           # A folder containing HTML templates used by the Flask app for rendering views.
 ├── static/              # A folder for static assets such as CSS, JavaScript, and images.
-└── requirements.txt     # A file listing the Python dependencies required to run the application. (This is actually on project root level)
+└── requirements.txt     # A file listing the Python dependencies required to run the application. (This is actually on repository root level)
 ```
