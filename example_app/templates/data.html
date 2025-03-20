@@ -4,22 +4,5 @@
 
 {% if data %}
 <h2 class="text-center">{{ title }}</h2>
-<table class="table table-bordered mt-4">
-    <thead>
-        <tr>
-            {% for header in data[0].keys() %}
-                <th>{{ header }}</th>
-            {% endfor %}
-        </tr>
-    </thead>
-    <tbody>
-        {% for row in data %}
-            <tr>
-                {% for cell in row.values() %}
-                    <td>{{ cell }}</td>
-                {% endfor %}
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
+{{ data|safe }}
 {% endif %}
