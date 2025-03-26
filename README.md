@@ -2,6 +2,21 @@
 
 Practice using copilot by implementing a simple Python application.
 
+## Exercise: Create a TODO file for yourself
+
+Here is a sample first prompt to Copilot:
+
+`@workspace /explain How would I begin to build a Flask app based on the example features #file:README.md? Don't implement any code yet. Suggest me a good architecture for the application. Don't modify requirements.txt file. Include an implementation strategy.`
+
+Next, you can use for example the following prompt to generate the TODO file for you:
+
+`Create me a TODO.md file with the suggested implementation strategy as small individual steps. Include also architectural diagram and dataflow diagram. Use mermaid syntax.`
+
+> Note! The `mermaid` syntax is just an example. You can prompt it to generate whatever syntax you wish.
+
+Review the generated steps and modify them as needed.
+Now that you have your `TODO.md` file, you can start implementing the features in small steps. Happy coding!
+
 ## Exercise: Create a Flask Application
 
 Your task is to create a Flask application that can parse any form of .csv data and visualize it inside the app. Follow these steps:
